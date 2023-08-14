@@ -1,0 +1,112 @@
+body{
+    background: black;
+    margin: 0;
+    text-align: center;
+}
+
+#container{
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background: linear-gradient(120deg, green,lightblue);
+    padding: 40px 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+#search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search{
+    border: 1px solid lightblue;
+    outline: none;
+    background: white ;
+    color: black;
+    font-size: 20px;
+    padding: 10px 70px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+button{
+    outline: none;
+    background: white ;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+button img {
+    width: 20px;
+}
+
+#weather-icon{
+    width: 200px;
+    margin-top: 40px;
+}
+
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: -25px;
+    font-family: 'Rubik', sans-serif;
+
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+
+.logo img{
+    width: 40px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex ;
+    align-items: center;
+    text-align: left;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.val{
+    margin-bottom: -20px;
+    font-size: 25px;
+}
+
+#weather{
+    display: none;
+}
+
+
+#error{
+    margin-top: 5px;
+    display: none;
+    
+}
+.error-message{
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
